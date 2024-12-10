@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naruto Shippuden</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="naruto logo.png" alt="naruto logo" style="width: 150px; height: 60px;">
+        <nav>
+            <ul>
+                <li><a href="#sinopse">Sinopse</a></li>
+                <li><a href="#personagens">Personagens</a></li>
+                <li><a href="#episodios">Episódios favoritos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="inicio">
+            <img src="naruto banner.jpeg" alt="Banner My Hero Academia" class="banner" style="background-repeat: no-repeat; height: 250px;">
+        </section>
+
+        <div id="sinopse">
+            <h1><em>Sinopse</em></h1>
+            <p>"Naruto Shippuden" é a continuação da história de Naruto Uzumaki, um jovem ninja da Vila Oculta da Folha, que busca se tornar Hokage, o líder de sua vila. Após um período de treinamento, Naruto retorna para enfrentar novos desafios e inimigos, incluindo a organização criminosa Akatsuki, que busca capturar as bestas com cauda, incluindo a Raposa de Nove Caudas que reside dentro dele. Ao longo da série, Naruto e seus amigos, como Sasuke Uchiha e Sakura Haruno, enfrentam batalhas emocionantes, exploram suas próprias histórias e crescem como ninjas e como pessoas. A trama aborda temas de amizade, sacrifício, redenção e a luta contra o preconceito, enquanto Naruto busca reconhecimento e aceitação em um mundo repleto de conflitos e desafios.</p>
+            
+        </div>
+
+        <section id="info">
+            <h1><strong>INFORMAÇÕES</strong></h1>
+            <p><strong>Avaliações gerais do anime:</strong></p>
+            <ul>
+                <li><strong>Nota: 7.921/10.000</strong></li>
+                <li><strong>Popularidade: 871.135</strong></li>
+            </ul>
+            <br>
+
+            <p><strong>Total de Episódios e temporadas:</strong></p>
+            <ul>
+                <li>22 Temporadas</li>
+                <li>500 episódios</li>
+            </ul>
+        </section>
+
+        <section id="personagens">
+            <h2 style="padding-left: 40%;"><strong>PERSONAGENS (PRINCIPAIS)</strong></h2>
+            <div class="per" onclick="abrirModal('naruto')">
+                <img class="narutoimg" src="naruto.png" alt="Naruto Uzumaki" style="height: 200px; width: 300px; border-radius: 10px;">
+                <h3 class="naruto">Naruto Uzumaki </h3>
+            </div>
+            
+            <div id="narutoModal" class="modal">
+                <div class="modal-conteudo" style="background-color: rgb(211, 108, 24);">
+                    <span class="fechar" onclick="fecharModal()">&times;</span>
+                    <h2 style="color: rgb(145, 8, 8);">Naruto Uzumaki</h2>
+                    <img src="narutokyuubi.png" alt="Deku" style="height: 200px; margin-left: 200px;">
+                    <p>Naruto Uzumaki é o protagonista do anime "Naruto", um jovem ninja da Vila Oculta da Folha que sonha em se tornar Hokage. Portador da Raposa de Nove Caudas, ele enfrenta preconceito e solidão, mas é otimista, leal e valoriza a amizade. Ao longo da série, Naruto evolui de um garoto impulsivo para um dos ninjas mais poderosos e respeitados, conquistando reconhecimento e aceitação.</p>
+                </div>
+            </div>
+
+
+            <div class="per" onclick="abrirModal('sasuke')">
+                <img src="sasuke1.png" alt="Sasuke Uchiha" style="height: 200px; width: 190px; border-radius: 10px;">
+                <h3 class="sasuke">Sasuke Uchiha</h3>
+            </div>
+            
+            <div id="sasukeModal" class="modal">
+                <div class="modal-conteudo" style="background-color:  rgb(28, 46, 83);">
+                    <span class="fechar" onclick="fecharModal()">&times;</span>
+                    <h2 style="color: rgb(9, 44, 119);">Sasuke Uchiha</h2>
+                    <img src="sasuke2.png" alt="sasuke" style="height: 200px; margin-left: 200px;">
+                    <p>Sasuke Uchiha é um dos principais personagens do anime "Naruto". Membro do clã Uchiha, ele é um jovem ninja habilidoso que busca vingança contra seu irmão, Itachi, que massacrou seu clã. Ao longo da série, Sasuke enfrenta suas emoções e rivalidades, evoluindo de um personagem frio e distante para alguém em busca de redenção e propósito. </p>
+                </div>
+            </div>
+
+            <div class="per" onclick="abrirModal('sakura')">
+                <img class="sakuraimg" src="sakura.png" alt="Sakura Haruno" style="height: 200px; width: 300px; border-radius: 10px;">
+                <h3 class="sakura">Sakura Haruno</h3>
+            </div>
+            
+            <div id="sakuraModal" class="modal">
+                <div class="modal-conteudo" style="background-color: palevioletred;">
+                    <span class="fechar" onclick="fecharModal()">&times;</span>
+                    <h2 style="color: rgb(236, 128, 146);">Sakura Haruno</h2>
+                    <img src="sakura2.png" alt="sakura" style="height: 250px; margin-left: 200px;">
+                    <p>
+                        Sakura Haruno é uma personagem do anime e mangá "Naruto". Ela é uma ninja da Vila Oculta da Folha, conhecida por suas habilidades médicas e força física. Inicialmente insegura e obcecada por Sasuke Uchiha.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="episodios">
+            <h1>Episódios favoritos</h1>
+            <div class="tp1">
+                <section class="temporada">
+                    <h2>Voltando pra casa</h2>
+                    <a href="https://www.youtube.com/embed/syzHXe_dnSQ?si=wRs83Ua0f4nuUK62"><img src="naruto season1.jpg" alt="EPISODIO1" style="height: 120px; width: 200px; border-radius: 10px;"></a>
+                    <a href="https://www.youtube.com/embed/syzHXe_dnSQ?si=wRs83Ua0f4nuUK62"><button class="btn">Assistir trailer</button></a>
+                </section>
+
+                <section class="temporada">
+                    <h2>Jiraya x Pain</h2>
+                    <a href="https://www.youtube.com/embed/1_eunMtTU1k?si=l9rlQel6lAJ9CscV"><img src="jiraya.jpg" alt="jiraya" style="height: 120px; width: 200px; border-radius: 10px;"></a>
+                    <a href="https://www.youtube.com/embed/1_eunMtTU1k?si=l9rlQel6lAJ9CscV"><button class="btn">Assistir trailer</button></a>
+                </section>
+
+                <section class="temporada">
+                    <h2>Naruto x Sasuke</h2>
+                    <a href="https://www.youtube.com/embed/8pGj8XNzXoI?si=D2P2UO6nxoC7YZa6"><img src="NarutoxSasuke.jpg" alt="Temporada 3" style="height: 120px; width: 200px; border-radius: 10px;"></a>
+                    <a href="https://www.youtube.com/embed/8pGj8XNzXoI?si=D2P2UO6nxoC7YZa6"><button class="btn">Assistir trailer</button></a>
+                </section>
+
+                </div>
+        </section>
+
+    </main>
+
+    <footer>
+        
+        <section id="contato">
+            <h1>Contato</h1>
+            <p>Para mais informações, entre em contato pelo e-mail: contato@uzumakiNaruto.com</p>
+
+            <div class="form-container">
+                <form>
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name" required>
+    
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+    
+                    <label for="message">Mensagem:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+    
+                    <button type="submit">Enviar</button>
+                </form>
+            
+        </section>
+        <p>&copy; 2023 Naruto Shippuden. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
